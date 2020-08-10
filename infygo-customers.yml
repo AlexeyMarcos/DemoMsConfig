@@ -11,11 +11,12 @@ spring:
   jpa:
     show-sql: true
     hibernate:
-    ddl-auto: update
+      ddl-auto: update
         
     properties:
-    hibernate:
-      dialect: org.hibernate.dialect.MySQL5Dialect
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
 
 logging:
   file: Errorlog.log
